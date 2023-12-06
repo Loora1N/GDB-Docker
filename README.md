@@ -10,3 +10,7 @@
 
 - 参照模板修改自身dockerfile，需安装gdbserver和socat，利用watchdog.sh监听链接
 - 参考remote.py中的断点函数`p()`即可
+
+效果图如下：
+
+![调试效果图](/img/exp.png)
