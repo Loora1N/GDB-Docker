@@ -1,6 +1,6 @@
 # GDB-Docker
 
-在比赛中遇到C++或其他一些项目类的pwn题时，动态链接库过于繁杂。手动或写脚本使用patchelf均较为麻烦，且一定能保证与docker内环境完全一致。因而如果能直接使用pwntools和gdb在宿主机调试docker环境中的pwn题将方便很多。
+在比赛中遇到C++或其他一些项目类的pwn题时，动态链接库过于繁杂。手动或写脚本使用patchelf在本地建立依赖均较为麻烦，且不能保证与题目所提供的docker内环境完全一致。因而如果能直接使用pwntools和gdb在宿主机调试docker环境中的pwn题将方便很多。
 
 该脚本template旨在简化宿主机调试docker内的pwn题调试流程，提高工作效率。
 
