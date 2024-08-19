@@ -1,7 +1,7 @@
 """
 File: remote.py
 Author: Loora1N
-Email: loorain123@email.com
+Email: loorain917@gmail.com
 Time: 2023-12-05
 """
 from pwn import *
